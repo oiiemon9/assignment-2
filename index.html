@@ -3,8 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <title>Flower Market</title>
     <link rel="stylesheet" href="styles/style.css" />
   </head>
-  <body></body>
+  <body class="inter-font">
+    <header class="max-w-[1140px] mx-auto px-2.5">
+      <nav class="my-8 flex justify-between items-center">
+        <div>
+          <img src="./assets/logo.png" alt="" />
+        </div>
+        <div class="flex gap-12">
+          <ul class="hidden md:flex gap-12 text-[#8987A1]">
+            <li class="text-black"><a href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">About us</a></li>
+          </ul>
+          <div>
+            <button class="cursor-pointer">
+              <i class="fa-solid fa-cart-shopping"></i> Cart ($56)
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+    <script
+      src="https://kit.fontawesome.com/c8fa2ade6b.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
