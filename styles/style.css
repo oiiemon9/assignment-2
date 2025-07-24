@@ -12,3 +12,18 @@
   font-style: normal;
   font-variation-settings: 'wdth' 100;
 }
+
+@keyframes spin {
+  0% {
+    transform: rotate(-45deg);
+  }
+  50% {
+    transform: rotate(45deg);
+  }
+  100% {
+    transform: rotate(-45deg);
+  }
+}
+.trusted-spin {
+  animation: spin 5s ease-in-out infinite;
+}
